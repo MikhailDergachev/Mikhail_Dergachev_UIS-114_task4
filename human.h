@@ -35,14 +35,15 @@ private:
      */
     double salary;
 
-
-public:
-
+protected:
     /**
      * @brief Конструктор по умолчанию
      * 
      */
     human::human();
+
+
+public:
     /**
      * @brief Параметризированный конструктор
      * @param salary доход
@@ -93,21 +94,21 @@ public:
      * @return переназначенное name
      */
 
-    void set_name(const std::string name);
+    void set_name(const string &name);
 
     /**
      * @brief переназначение имени 
      * @return переназначенное name
      */
 
-    void set_surname(const std::string surname);
+    void set_surname(const string &surname);
 
     /**
      * @brief переназначение имени 
      * @return переназначенное name
      */
 
-    void set_second_name(const std::string second_name);
+    void set_second_name(const string &second_name);
    
     /**
      * @brief Геттер для возраста
